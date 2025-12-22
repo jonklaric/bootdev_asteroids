@@ -18,7 +18,7 @@ def main():
         # check for closing the window...
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
-                break
+                return
         screen.fill("black")
         # refresh the screen
         pygame.display.flip()
